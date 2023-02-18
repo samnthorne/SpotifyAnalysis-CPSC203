@@ -1,0 +1,92 @@
+# Part 2 Popular Artist Writeup:
+I think this is an okay way of rating popularity however 
+I can also see how it is not always the most accurate. 
+They might have a lot of songs that are in the top100 list but
+that does not necessarily mean they are the most popular.
+I think popularity depends on how many listens each artist/track gets.
+The more listens, the more popular they are. 
+# Part 3 - Data Visualization Writeup:
+
+### Plot 3.1 interpretation:
+From the graph of speechiness vs danceability for rap music and 
+not rap music it becomes apparent that rap music is higher on the speechy
+scale and higher on the danceability scale. 
+
+Spotify's rating of 
+danceability comes from how suitable the track is for dancing
+based on criteria such as beat strength, tempo, etc. From the plot
+I am not sure how much I agree with this. There are a lot of different 
+ways of dancing many of which cannot be done to rap music. I would 
+say that their reading of danceability is not including many types of 
+dance. Just because rap music tends to have a stronger beat and such
+does not mean it is danceable. 
+
+
+Spotify's rating of speechiness comes from a measurement of the 
+amount of spoken word type sound there is in the track.
+A lot of the rap music lies higher on the speechiness scale although
+a lot of the songs are mixed in to the non-rap music. I think 
+this is a good level of speechiness, a lot of music that is considered
+rap music has a fair amount of instrumental, and some sort of chorus
+that does not always include rap bringing it down on the speechiness scale. 
+
+
+![img_4.png](img_4.png)
+
+### Found in exploration:
+##### Question:
+I found it interesting how there was a list of artists for 
+each track. I was then curious if the number of artists
+affects the length of the song as there are now more people
+who need their time to be featured. I also wanted to see if there
+was a relationship between the energy of a song and its length. 
+I had noticed before that generally really long songs tend to be on the slower, 
+more melancholic side. The questions I came up with were therefore:
+
+How does the duration of a song relate to the number 
+of artists and the energy of the song? 
+
+
+Are the songs longer when there are more artists?
+
+
+Are shorter songs typically higher energy?
+##### Answer:
+There does not appear to be a correlation between the number of 
+artists and the duration. All the tracks with more than one 
+artist appears to be averaged with the tracks that have one artist. 
+I was actually expecting songs with more artists to have a higher 
+duration as they all need to make their contribution to the song
+and am quite surprised to see that this does not seem to be the case. 
+
+
+There does not appear to be a truly clear relationship between 
+energy and duration either. However, it is apparent that there are no songs
+with a high duration and a high energy. Nor is there a track in the 
+Top100 that is long with low energy. It is interesting that most
+of the songs in the top100 are on the higher end of the energy scale. 
+
+
+![img_3.png](img_3.png)
+
+# Part 4 - Extra:
+For part 4 I tried plotly, I had not used it before and 
+wanted to see if it was any easier than matplotlib.
+I produced a similar graph to the one I did for part three 
+except I made the y-axis tempo instead of energy. 
+I also enabled the hover function so one can see what song each
+dot represents. 
+
+
+From the graph below I deduced that there does not appear to be a clear
+relationship between tempo and song duration. Generally the tempo
+does appear to be on the mid to low side as the songs get longer, 
+there are not any songs off the top100 that have a high tempo
+for a longer than average time. 
+
+I would say I liked using plotly a lot 
+more than matplotlib.
+
+###### Note: I could not get hover function to work when copying image into MarkDown
+
+![img.png](img.png)
